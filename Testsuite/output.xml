@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.13.2 on win32)" generated="2026-02-18T15:04:32.288354" rpa="false" schemaversion="5">
+<suite id="s1" name="SuiteLevelST" source="C:\Users\Hp\PycharmProjects\wiproRobotfw\TestSuite\SuiteLevelST.robot">
+<kw name="Open DB" owner="Resource" type="SETUP">
+<msg time="2026-02-18T15:04:32.579685" level="FAIL">User keyword cannot be empty.</msg>
+<status status="FAIL" start="2026-02-18T15:04:32.579324" elapsed="0.000419">User keyword cannot be empty.</status>
+</kw>
+<test id="s1-t1" name="Verify login with valid credentials" line="10">
+<status status="FAIL" start="2026-02-18T15:04:32.580031" elapsed="0.000623">Parent suite setup failed:
+User keyword cannot be empty.</status>
+</test>
+<test id="s1-t2" name="Verify login with valid credentials" line="13">
+<status status="FAIL" start="2026-02-18T15:04:32.582012" elapsed="0.001330">Parent suite setup failed:
+User keyword cannot be empty.</status>
+</test>
+<kw name="Log" owner="BuiltIn" type="TEARDOWN">
+<msg time="2026-02-18T15:04:32.585389" level="INFO">Close DB</msg>
+<arg>Close DB</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T15:04:32.584826" elapsed="0.000665"/>
+</kw>
+<status status="FAIL" start="2026-02-18T15:04:32.289816" elapsed="0.295769">Suite setup failed:
+User keyword cannot be empty.</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="SuiteLevelST" id="s1" pass="0" fail="2" skip="0">SuiteLevelST</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-18T15:04:32.582209" level="WARN">Multiple tests with name 'Verify login with valid credentials' executed in suite 'SuiteLevelST'.</msg>
+</errors>
+</robot>
