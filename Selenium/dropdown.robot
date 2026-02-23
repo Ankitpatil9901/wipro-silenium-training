@@ -5,6 +5,8 @@
 *** Settings ***
 Library     SeleniumLibrary
 
+#2 types--by index and labels
+
 
 *** Variables ***
 ${url}      https://rahulshettyacademy.com/AutomationPractice/
